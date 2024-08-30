@@ -1,0 +1,429 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family:'Oswald','sans-serif';
+}
+
+p{
+    font-family: 'Raleway','sans-serif';
+}
+
+.wrapper{
+    width: 100%;
+    margin: auto;
+}
+
+/* header area */
+.nav{
+    overflow: auto;
+    width: 85%;
+    margin: 1em auto;
+}
+
+.nav h1{
+    text-transform: uppercase;
+    width: 50%;
+    float: left;
+}
+
+.nav h1 a{
+    font-family:'Oswald','sans-serif';
+    color: #96746b;
+    text-decoration: none;
+}
+
+.nav ul{
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-top: 1em;
+}
+
+.nav ul li{
+    display: inline-block;
+    margin-left: 1em;
+}
+
+.nav ul a{
+    font-family: 'Raleway','sans-serif';
+    font-weight: 700;
+    color: #312a26;
+    text-decoration: none;
+}
+
+/* 2.banner area */
+.banner{
+    background: url('../images/banner-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 670px;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 7.5%;
+    transform: translateY(-50%);
+    width: 45%;
+}
+
+.banner-text h2{
+    color: #c7a17a;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+.banner-text h2 span{
+    color: #96746b;
+}
+
+.banner-text p{
+    color: #fff;
+}
+
+.banner a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: #312a26;
+    color: #fff;
+    font-family: 'Raleway','sans-serif';
+    font-weight: 700;
+    margin-top: 1em;
+}
+
+/* 3.ads area */
+.ads{
+    width: 85%;
+    margin: 4em auto;
+    overflow: auto;
+}
+
+.ads-items{
+    width: 48.5%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 3%;
+}
+
+.ads-item1{
+    margin-right: 3%;
+    background-image: url('../images/ads-img1.jpg');
+}
+
+.ads-item2{
+    background-image: url('../images/ads-img2.jpg') ;
+}
+
+.ads-text{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 40%;
+}
+
+.ads-text h3{
+    text-transform: uppercase;
+    font-size: 2em;
+    color: #fff;
+    line-height: 1.2em;
+    text-shadow: 3px 3px 6px #312a26;
+}
+
+.ads-text a{
+    display: block;
+    font-family: 'Raleway','sans-serif';
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 1em;
+    text-shadow: 3px 3px 5px #312a26;
+}
+
+/* 4.Merchandise area */
+.merch {
+    width: 85%;
+    margin: 4em auto;
+}
+
+.section-header{
+    text-align: center;
+    
+}
+
+.section-header span{
+    font-family: 'Raleway','sans-serif';
+    font-weight: 500;
+    font-style: italic;
+    color: #c7a17a;
+}
+
+.section-header h2{
+    text-transform: uppercase;
+    color: #312a26;
+}
+
+.section-header hr{
+    background-color: #c7a17a;
+    height: 2px;
+    width: 25%;
+    margin: auto;
+}
+
+.merch-gallery{
+    margin-top: 2em;
+    overflow: auto;
+}
+
+.merch-items{
+    width: 24.25%;
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+}
+
+.merch-items img{
+    width: 100%;
+    height: 350px;
+    /* object-fit property is used to specify how an<img> should be resized to fit its container  
+
+    cover - the image keeps its aspect ratio and fills the given dimension.
+    the image will be clipped to fit
+    */
+    object-fit: cover;
+}
+
+.last-item{
+    margin-right: 0;
+}
+
+/* 5.discount area */
+.discount{
+    background: url('../images/discount-img.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 350px;
+    width: 85%;
+    margin: 4em auto;
+   
+}
+
+.discount-text{
+    text-align: center;
+    width: 50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+.discount-text span{
+    font-family: 'Raleway' 'sans-serif';
+    font-style: italic;
+    color: white;
+    text-shadow: 3px 3px 6px black;
+}
+
+.discount-text h2{
+    color: white;
+    text-transform: uppercase;
+
+}
+
+.discount-text a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    background-color: white;
+    color: gray;
+    font-family: 'Raleway','sans-serif';
+    font-weight: 500;
+    margin-top: 1em;
+    opacity: 0.5;
+}
+/* 6.marchandise sale */
+.merch2{
+    
+    margin: 4em auto;
+}
+
+/* 7ads area 2 */
+.ads-item3{
+    background-image: url('../images/ads-img3.jpg');
+    margin-right: 3%;
+}
+
+.ads-item4{
+    background-image: url('../images/ads-img4.jpg');
+    
+}
+
+.ads-item5{
+
+    background-image: url('../images/ads-img5.jpg');
+    margin-right: 3%;
+}
+
+.ads-item6{
+    background-image: url('../images/ads-img6.jpg');
+    
+}
+
+.ads2-text{
+    top: 50%;
+}
+
+/* 8.reservation area */
+
+.reservation{
+    width: 85%;
+    margin: 4em auto;
+}
+
+form{
+    overflow: auto;
+}
+
+.form-group{
+    margin-top: 2em;
+    background-color: white;
+    float: left;
+    width: 49.5%;
+    border-radius:5px;
+    padding: 2em;
+    height: 650px;
+}
+
+form input
+form label
+form select
+form textarea{
+    display: inline-block;
+    width: 100%;
+    font-family: 'Raleway''sans-serif';
+    padding: 1em;
+    margin-bottom: 1em;
+}
+
+form label{
+    font-weight: 700;
+    padding: 0;
+    margin-bottom: .5em;
+}
+.res-time{
+    text-align: .5em;
+
+}
+
+.res-time *{
+    width: auto;
+}
+
+form p{
+    margin: 1em;
+    text-align: center;
+    font-weight: 700;
+}
+
+form h3{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form h3::after{
+    content: "";
+    background-image: url(../images/reservation-cards.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    width: 150px;
+    height: 30px;
+    margin: auto;
+}
+.res-agreement *{
+    width: auto;
+}
+
+/* 9.footer */
+
+.above-footer{
+    background-image: url(../images/footer-img.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    border: solid 1px yellow;
+    align-items: stretch;
+    padding: 1em 7.5%;
+}
+
+.above-footer>div{
+    flex: 1;
+    border: 2px solid yellow; 
+    padding: 1em; 
+    flex: 1; 
+    margin: 0 5px;  
+    box-sizing: border-box; 
+}
+
+.search-button{
+    background-color: lightsalmon; 
+}
+
+h2{
+    text-transform: uppercase;
+   }
+
+.footer-above-date{
+    color: #c7a17a;
+}
+.footer {
+    background-color: #19100f;      
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    height: 30%;
+    padding: 1em 7.5%;
+    border: solid 2px yellow;
+    display: flex;
+    overflow: auto; 
+}
+
+.box-1{
+    text-transform: uppercase;
+}
+
+.box-2 img{
+    width: 10px;
+    height: 10px;
+}
+
+.box-3{
+    float: right;
+}
+
+.box-1,.box-2,.box-3{
+    flex: 1;
+}
+
+.footer>{
+    box-sizing: border-box;
+}
